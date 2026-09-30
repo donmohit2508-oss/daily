@@ -1,3 +1,4 @@
+package Loop;
 //1
 
 // class Car{
@@ -88,41 +89,41 @@
 
 
 
-// class BankAccount{
-//     String AccountHolder;
-//     double Balance;
+class BankAccount{
+    String AccountHolder;
+    double Balance;
 
-//     void ShowDetails(){
-//         System.out.println("AccountHolder: " + AccountHolder);
-//         System.out.println("Balance: " + Balance);
-//     }
-// }
+    void ShowDetails(){
+        System.out.println("AccountHolder: " + AccountHolder);
+        System.out.println("Balance: " + Balance);
+    }
+}
 
-// public class Obj {
+public class Obj {
 
-//     public static void main(String[] args) {
-//         BankAccount b1 = new BankAccount();
-//         b1.AccountHolder = "mohit";
-//         b1.Balance = 1000;
-//         b1.ShowDetails();
-//         BankAccount b2 = new BankAccount();
-//         b2.AccountHolder = "rahul";
-//         b2.Balance = 24000;
-//         b2.ShowDetails();
-//     }
-// }
+    public static void main(String[] args) {
+        BankAccount b1 = new BankAccount();
+        b1.AccountHolder = "mohit";
+        b1.Balance = 1000;
+        b1.ShowDetails();
+        BankAccount b2 = new BankAccount();
+        b2.AccountHolder = "rahul";
+        b2.Balance = 24000;
+        b2.ShowDetails();
+    }
+}
 
 
 //5
 
-class Book{
-    String title;
-    String author;
-    boolean issued;
+// class Book{
+//     String title;
+//     String author;
+//     boolean issued;
 
-    void issueBook(){
-        issued = true;
-        System.out.println(title + "has been issued");
-    }
-}
+//     void issueBook(){
+//         issued = true;
+//         System.out.println(title + "has been issued");
+//     }
+// }
 
