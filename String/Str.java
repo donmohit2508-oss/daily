@@ -7,6 +7,7 @@ public class Str {
     public static void main(String[] args) {
         String fName = "Mohit";
         String lName = "Kumar";
+        System.out.println(fName.length());
         int age = 19;
         String add = String.join("_", fName , lName);
         System.out.println(add);
